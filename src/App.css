@@ -1,38 +1,109 @@
-.App {
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+}
+
+.app-title {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+.sections {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.section-card {
+  background-color: #4caf50;
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.section-card:hover {
+  background-color: #45a049;
+}
+
+.quiz-page {
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.question-card {
+  background-color: white;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.option {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.correct {
+  border: 3px solid green!important;
+  color: green;
+}
+
+.incorrect {
+  border: 3px solid red !important;
+  color: red;
+}
+
+/* Ensure the entire app takes up full height */
+.App {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* The main content should grow and push the footer to the bottom */
+.sections {
+  flex: 1; /* This allows the section to grow and take up available space */
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Footer styling to stay at the bottom */
+.footer {
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer a {
+  color: black;
+  margin-left: 8px;
+  text-decoration: none;
 }
+
+.github-icon {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.footer a:hover {
+  color: #007acc;
+}
+
