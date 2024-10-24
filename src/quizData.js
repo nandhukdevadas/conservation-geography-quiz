@@ -918,10 +918,10 @@ export const quizData = [
   {
     text: "Hydrogen for nuclear fusion comes under the category of:",
     options: [
-      { text: "potential resources", isCorrect: true },
+      { text: "potential resources", isCorrect: false },
       { text: "actual resources", isCorrect: false },
       { text: "reserve resources", isCorrect: false },
-      { text: "stock resources", isCorrect: false },
+      { text: "stock resources", isCorrect: true },
     ],
   },
   {
@@ -965,8 +965,8 @@ export const quizData = [
     text: "Visakhapatnam can best be categorised as:",
     options: [
       { text: "administrative town", isCorrect: false },
-      { text: "industrial town", isCorrect: true },
-      { text: "transport town", isCorrect: false },
+      { text: "industrial town", isCorrect: false },
+      { text: "transport town", isCorrect: true },
       { text: "commercial town", isCorrect: false },
     ],
   },
@@ -1102,17 +1102,17 @@ export const quizData = [
     text: "Which of these uses imputed willingness to pay?",
     options: [
       { text: "market price method", isCorrect: false },
-      { text: "replacement cost method", isCorrect: false },
-      { text: "travel cost method", isCorrect: true },
+      { text: "replacement cost method", isCorrect: true },
+      { text: "travel cost method", isCorrect: false },
       { text: "contingent valuation method", isCorrect: false },
     ],
   },
   {
     text: "The time of flight for LiDAR is 0.00001 sec. Find the distance of the object from the instrument.",
     options: [
-      { text: "500 m", isCorrect: true },
+      { text: "500 m", isCorrect: false },
       { text: "1000 m", isCorrect: false },
-      { text: "1500 m", isCorrect: false },
+      { text: "1500 m", isCorrect: true },
       { text: "2000 m", isCorrect: false },
     ],
   },
