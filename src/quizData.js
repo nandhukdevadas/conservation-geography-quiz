@@ -433,10 +433,10 @@ export const quizData = [
   {
     text: "Which of these is not a primary force governing ocean currents?",
     options: [
-      { text: "Phase separation", isCorrect: true },
+      { text: "Phase separation", isCorrect: false },
       { text: "Gravity", isCorrect: false },
       { text: "Coriolis force", isCorrect: false },
-      { text: "Arrangement of coasts", isCorrect: false },
+      { text: "Arrangement of coasts", isCorrect: true },
     ],
   },
   {
