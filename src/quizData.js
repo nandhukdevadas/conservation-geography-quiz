@@ -735,276 +735,7 @@ export const quizData = [
   },
 
   // Week 9 (Questions 81-90)
-  {
-    text: "Which of these is a pillar of sustainability?",
-    options: [
-      { text: "Social sustainability", isCorrect: true },
-      { text: "Industrial sustainability", isCorrect: false },
-      { text: "Agricultural sustainability", isCorrect: false },
-      { text: "Trans-boundary sustainability", isCorrect: false },
-    ],
-  },
-  {
-    text: "Which concept is commonly observed in primitive societies?",
-    options: [
-      { text: "Environmental determinism", isCorrect: true },
-      { text: "Possibilism", isCorrect: false },
-      { text: "Neodeterminism", isCorrect: false },
-      { text: "Stop-and-go determinism", isCorrect: false },
-    ],
-  },
-  {
-    text: "Which of these is a preventive check according to Malthus?",
-    options: [
-      { text: "Foresight", isCorrect: true },
-      { text: "Vice", isCorrect: false },
-      { text: "Misery", isCorrect: false },
-      { text: "Flood", isCorrect: false },
-    ],
-  },
-  {
-    text: "Which of these is a positive check according to Malthus?",
-    options: [
-      { text: "Late marriage", isCorrect: false },
-      { text: "War", isCorrect: true },
-      { text: "Celibacy", isCorrect: false },
-      { text: "Moral restraint", isCorrect: false },
-    ],
-  },
-  {
-    text: "What concept is observed during the humanizing of nature?",
-    options: [
-      { text: "Environmental determinism", isCorrect: false },
-      { text: "Possibilism", isCorrect: true },
-      { text: "Neodeterminism", isCorrect: false },
-      { text: "Stop-and-go determinism", isCorrect: false },
-    ],
-  },
-  {
-    text: "The logistic growth equation curve is:",
-    options: [
-      { text: "I-shaped", isCorrect: false },
-      { text: "J-shaped", isCorrect: false },
-      { text: "S-shaped", isCorrect: true },
-      { text: "U-shaped", isCorrect: false },
-    ],
-  },
-  {
-    text: "Which of these is NOT a pillar of sustainability?",
-    options: [
-      { text: "Environmental sustainability", isCorrect: false },
-      { text: "Economic sustainability", isCorrect: false },
-      { text: "Trans-boundary sustainability", isCorrect: true },
-      { text: "Social sustainability", isCorrect: false },
-    ],
-  },
-  {
-    text: "Who wrote 'An Essay on the Principle of Population'?",
-    options: [
-      { text: "Darwin", isCorrect: false },
-      { text: "Malthus", isCorrect: true },
-      { text: "Spencer", isCorrect: false },
-      { text: "Owens", isCorrect: false },
-    ],
-  },
-  {
-    text: "According to the Malthusian model, population grows in:",
-    options: [
-      { text: "Geometric progression; food supply increases arithmetically", isCorrect: true },
-      { text: "Geometric progression; food supply increases geometrically", isCorrect: false },
-      { text: "Arithmetic progression; food supply increases arithmetically", isCorrect: false },
-      { text: "Arithmetic progression; food supply increases geometrically", isCorrect: false },
-    ],
-  },
-  {
-    text: "The demographic transition model describes the shift from:",
-    options: [
-      { text: "High birth rate, low death rate to low birth rate, high death rate", isCorrect: false },
-      { text: "Low birth rate, high death rate to low birth rate, low death rate", isCorrect: false },
-      { text: "High birth rate, high death rate to low birth rate, low death rate", isCorrect: true },
-      { text: "High birth rate, high death rate to low birth rate, high death rate", isCorrect: false },
-    ],
-  },
-  {
-    text: "Which of these is the largest source of sulphur oxides in the atmosphere?",
-    options: [
-      { text: "electricity generation", isCorrect: true },
-      { text: "mobile sources", isCorrect: false },
-      { text: "industrial processes", isCorrect: false },
-      { text: "residential fuel", isCorrect: false },
-    ],
-  },
-  {
-    text: "Those resources that are currently being used after surveying, quantification, and qualification is a definition of:",
-    options: [
-      { text: "potential resources", isCorrect: false },
-      { text: "actual resources", isCorrect: true },
-      { text: "reserve resources", isCorrect: false },
-      { text: "stock resources", isCorrect: false },
-    ],
-  },
-  {
-    text: "Rain gardens are primarily meant to:",
-    options: [
-      { text: "reduce water usage", isCorrect: false },
-      { text: "increase recharge to groundwater", isCorrect: true },
-      { text: "protect existing water sources", isCorrect: false },
-      { text: "increase water flow to streams", isCorrect: false },
-    ],
-  },
-  {
-    text: "Oil that has not been drilled can be categorised under:",
-    options: [
-      { text: "potential resources", isCorrect: true },
-      { text: "actual resources", isCorrect: false },
-      { text: "reserve resources", isCorrect: false },
-      { text: "stock resources", isCorrect: false },
-    ],
-  },
-  {
-    text: "Timber from forests that is being harvested can be categorised under:",
-    options: [
-      { text: "potential resources", isCorrect: false },
-      { text: "actual resources", isCorrect: true },
-      { text: "reserve resources", isCorrect: false },
-      { text: "stock resources", isCorrect: false },
-    ],
-  },
-  {
-    text: "Which of these is the largest source of ammonia (NH3) in the atmosphere?",
-    options: [
-      { text: "animal manure", isCorrect: true },
-      { text: "mineral fertiliser", isCorrect: false },
-      { text: "crops and their decomposition", isCorrect: false },
-      { text: "human waste", isCorrect: false },
-    ],
-  },
-  {
-    text: "Those resources that have been surveyed but we lack the technology to use them is a definition of:",
-    options: [
-      { text: "potential resources", isCorrect: false },
-      { text: "actual resources", isCorrect: false },
-      { text: "reserve resources", isCorrect: false },
-      { text: "stock resources", isCorrect: true },
-    ],
-  },
-  {
-    text: "Hydrogen for nuclear fusion comes under the category of:",
-    options: [
-      { text: "potential resources", isCorrect: true },
-      { text: "actual resources", isCorrect: false },
-      { text: "reserve resources", isCorrect: false },
-      { text: "stock resources", isCorrect: false },
-    ],
-  },
-  {
-    text: "Those resources that may be used in the future is a definition of:",
-    options: [
-      { text: "potential resources", isCorrect: true },
-      { text: "actual resources", isCorrect: false },
-      { text: "reserve resources", isCorrect: false },
-      { text: "stock resources", isCorrect: false },
-    ],
-  },
-  {
-    text: "The part of actual resources that can be developed profitably in the future is a definition of:",
-    options: [
-      { text: "potential resources", isCorrect: false },
-      { text: "actual resources", isCorrect: false },
-      { text: "reserve resources", isCorrect: true },
-      { text: "stock resources", isCorrect: false },
-    ],
-  },
-  {
-    text: "In Koeppen classification, which is cold arid temperature?",
-    options: [
-      { text: "h", isCorrect: false },
-      { text: "k", isCorrect: true },
-      { text: "a", isCorrect: false },
-      { text: "b", isCorrect: false },
-    ],
-  },
-  {
-    text: "Which of these are broad groups of peninsular plateau of India?",
-    options: [
-      { text: "the Deccan plateau", isCorrect: false },
-      { text: "the Central Highlands", isCorrect: false },
-      { text: "The North-Eastern plateau", isCorrect: false },
-      { text: "all of these", isCorrect: true },
-    ],
-  },
-  {
-    text: "In Koeppen classification, which is steppe precipitation?",
-    options: [
-      { text: "W", isCorrect: false },
-      { text: "S", isCorrect: true },
-      { text: "f", isCorrect: false },
-      { text: "s", isCorrect: false },
-    ],
-  },
-  {
-    text: "In Koeppen classification, which is warm summer temperature?",
-    options: [
-      { text: "h", isCorrect: false },
-      { text: "k", isCorrect: false },
-      { text: "a", isCorrect: true },
-      { text: "b", isCorrect: false },
-    ],
-  },
-  {
-    text: "In Koeppen classification, which is hot summer temperature?",
-    options: [
-      { text: "h", isCorrect: false },
-      { text: "k", isCorrect: false },
-      { text: "a", isCorrect: true },
-      { text: "b", isCorrect: false },
-    ],
-  },
-  {
-    text: "In Koeppen classification, which is cool summer temperature?",
-    options: [
-      { text: "c", isCorrect: true },
-      { text: "d", isCorrect: false },
-      { text: "F", isCorrect: false },
-      { text: "T", isCorrect: false },
-    ],
-  },
-  {
-    text: "In Koeppen classification, which is summer dry precipitation?",
-    options: [
-      { text: "W", isCorrect: false },
-      { text: "S", isCorrect: true },
-      { text: "f", isCorrect: false },
-      { text: "s", isCorrect: false },
-    ],
-  },
-  {
-    text: "In Koeppen classification, which is monsoonal precipitation?",
-    options: [
-      { text: "W", isCorrect: false },
-      { text: "S", isCorrect: false },
-      { text: "m", isCorrect: true },
-      { text: "s", isCorrect: false },
-    ],
-  },
-  {
-    text: "In Koeppen classification, which is polar tundra temperature?",
-    options: [
-      { text: "c", isCorrect: false },
-      { text: "d", isCorrect: false },
-      { text: "F", isCorrect: true },
-      { text: "T", isCorrect: false },
-    ],
-  },
-  {
-    text: "In Koeppen classification, which is polar climate?",
-    options: [
-      { text: "A", isCorrect: false },
-      { text: "E", isCorrect: true },
-      { text: "C", isCorrect: false },
-      { text: "B", isCorrect: false },
-    ],
-  },
+  // Week 9 (Questions 1-10)
   {
     text: "Which of these is a pillar of sustainability?",
     options: [
@@ -1078,7 +809,7 @@ export const quizData = [
     ],
   },
   {
-    text: "According to Malthusian model:",
+    text: "According to the Malthusian model:",
     options: [
       {
         text: "Population grows in geometric progression, food supply increases in arithmetic progression",
@@ -1101,10 +832,297 @@ export const quizData = [
   {
     text: "The demographic transition sees a society move from:",
     options: [
-      { text: "high birth rate, low death rate to low birth rate, high death rate", isCorrect: false },
-      { text: "low birth rate, high death rate to low birth rate, low death rate", isCorrect: false },
-      { text: "high birth rate, high death rate to low birth rate, low death rate", isCorrect: true },
-      { text: "high birth rate, high death rate to low birth rate, high death rate", isCorrect: false },
+      {
+        text: "high birth rate, low death rate to low birth rate, high death rate",
+        isCorrect: false,
+      },
+      {
+        text: "low birth rate, high death rate to low birth rate, low death rate",
+        isCorrect: false,
+      },
+      {
+        text: "high birth rate, high death rate to low birth rate, low death rate",
+        isCorrect: true,
+      },
+      {
+        text: "high birth rate, high death rate to low birth rate, high death rate",
+        isCorrect: false,
+      },
+    ],
+  },
+
+  // Week 10 (Questions 1-10)
+  {
+    text: "Which of these is the largest source of sulphur oxides in the atmosphere?",
+    options: [
+      { text: "electricity generation", isCorrect: true },
+      { text: "mobile sources", isCorrect: false },
+      { text: "industrial processes", isCorrect: false },
+      { text: "residential fuel", isCorrect: false },
+    ],
+  },
+  {
+    text: "'Those resources that are currently being used after surveying, quantification, and qualification' is a definition of:",
+    options: [
+      { text: "potential resources", isCorrect: false },
+      { text: "actual resources", isCorrect: true },
+      { text: "reserve resources", isCorrect: false },
+      { text: "stock resources", isCorrect: false },
+    ],
+  },
+  {
+    text: "Rain gardens are primarily meant to:",
+    options: [
+      { text: "reduce water usage", isCorrect: false },
+      { text: "increase recharge to groundwater", isCorrect: true },
+      { text: "protect existing water sources", isCorrect: false },
+      { text: "increase water flow to streams", isCorrect: false },
+    ],
+  },
+  {
+    text: "Oil that has not been drilled can be categorised under:",
+    options: [
+      { text: "potential resources", isCorrect: true },
+      { text: "actual resources", isCorrect: false },
+      { text: "reserve resources", isCorrect: false },
+      { text: "stock resources", isCorrect: false },
+    ],
+  },
+  {
+    text: "Timber from forests that is being harvested can be categorised under:",
+    options: [
+      { text: "potential resources", isCorrect: false },
+      { text: "actual resources", isCorrect: true },
+      { text: "reserve resources", isCorrect: false },
+      { text: "stock resources", isCorrect: false },
+    ],
+  },
+  {
+    text: "Which of these is the largest source of ammonia (NH3) in the atmosphere?",
+    options: [
+      { text: "animal manure", isCorrect: true },
+      { text: "mineral fertiliser", isCorrect: false },
+      { text: "crops and their decomposition", isCorrect: false },
+      { text: "human waste", isCorrect: false },
+    ],
+  },
+  {
+    text: "'Those resources that have been surveyed but we lack the technology to use them' is a definition of:",
+    options: [
+      { text: "potential resources", isCorrect: false },
+      { text: "actual resources", isCorrect: false },
+      { text: "reserve resources", isCorrect: false },
+      { text: "stock resources", isCorrect: true },
+    ],
+  },
+  {
+    text: "Hydrogen for nuclear fusion comes under the category of:",
+    options: [
+      { text: "potential resources", isCorrect: true },
+      { text: "actual resources", isCorrect: false },
+      { text: "reserve resources", isCorrect: false },
+      { text: "stock resources", isCorrect: false },
+    ],
+  },
+  {
+    text: "'Those resources that may be used in the future' is a definition of:",
+    options: [
+      { text: "potential resources", isCorrect: true },
+      { text: "actual resources", isCorrect: false },
+      { text: "reserve resources", isCorrect: false },
+      { text: "stock resources", isCorrect: false },
+    ],
+  },
+  {
+    text: "'The part of actual resources that can be developed profitably in the future' is a definition of:",
+    options: [
+      { text: "potential resources", isCorrect: false },
+      { text: "actual resources", isCorrect: false },
+      { text: "reserve resources", isCorrect: true },
+      { text: "stock resources", isCorrect: false },
+    ],
+  },
+  // Week 11 (Questions 1-10)
+  {
+    text: "Oxford can best be categorised as:",
+    options: [
+      { text: "mining town", isCorrect: false },
+      { text: "garrison town", isCorrect: false },
+      { text: "educational town", isCorrect: true },
+      { text: "religious town", isCorrect: false },
+    ],
+  },
+  {
+    text: "New Delhi can best be categorised as:",
+    options: [
+      { text: "administrative town", isCorrect: true },
+      { text: "industrial town", isCorrect: false },
+      { text: "transport town", isCorrect: false },
+      { text: "commercial town", isCorrect: false },
+    ],
+  },
+  {
+    text: "Visakhapatnam can best be categorised as:",
+    options: [
+      { text: "administrative town", isCorrect: false },
+      { text: "industrial town", isCorrect: true },
+      { text: "transport town", isCorrect: false },
+      { text: "commercial town", isCorrect: false },
+    ],
+  },
+  {
+    text: "Varanasi can best be categorised as:",
+    options: [
+      { text: "mining town", isCorrect: false },
+      { text: "garrison town", isCorrect: false },
+      { text: "educational town", isCorrect: false },
+      { text: "religious town", isCorrect: true },
+    ],
+  },
+  {
+    text: "Which of these is a factor governing the barrier effect of roads?",
+    options: [
+      { text: "traffic intensity", isCorrect: false },
+      { text: "speed of vehicles", isCorrect: false },
+      { text: "driver sensitivity", isCorrect: false },
+      { text: "all of these", isCorrect: true },
+    ],
+  },
+  {
+    text: "'The ability to produce a good using fewer inputs than another producer' is:",
+    options: [
+      { text: "comparative advantage", isCorrect: false },
+      { text: "absolute advantage", isCorrect: true },
+      { text: "production advantage", isCorrect: false },
+      { text: "resource advantage", isCorrect: false },
+    ],
+  },
+  {
+    text: "Which of these is / are example(s) of mitigation measures to reduce impacts of linear infrastructure on wildlife?",
+    options: [
+      { text: "bridge underpasses", isCorrect: false },
+      { text: "box culverts", isCorrect: false },
+      { text: "pipe culverts", isCorrect: false },
+      { text: "all of these", isCorrect: true },
+    ],
+  },
+  {
+    text: "Bhilai can best be categorised as:",
+    options: [
+      { text: "administrative town", isCorrect: false },
+      { text: "industrial town", isCorrect: true },
+      { text: "transport town", isCorrect: false },
+      { text: "commercial town", isCorrect: false },
+    ],
+  },
+  {
+    text: "Singrauli can best be categorised as:",
+    options: [
+      { text: "mining town", isCorrect: true },
+      { text: "garrison town", isCorrect: false },
+      { text: "educational town", isCorrect: false },
+      { text: "religious town", isCorrect: false },
+    ],
+  },
+  {
+    text: "'The price of a good that prevails in the world market for that good' is the definition of:",
+    options: [
+      { text: "export price", isCorrect: false },
+      { text: "import price", isCorrect: false },
+      { text: "world price", isCorrect: true },
+      { text: "domestic price", isCorrect: false },
+    ],
+  },
+
+  // Week 12 (Questions 1-10)
+  {
+    text: "'The conditions determined by physical, social, economic, and environmental factors or processes which increase the susceptibility of an individual, a community, assets, or systems to the impacts of hazards' is a definition for:",
+    options: [
+      { text: "hazard", isCorrect: false },
+      { text: "exposure", isCorrect: false },
+      { text: "vulnerability", isCorrect: true },
+      { text: "disaster", isCorrect: false },
+    ],
+  },
+  {
+    text: "'The combination of all the strengths, attributes, and resources available within an organisation, community, or society to manage and reduce disaster risks and strengthen resilience' is a definition for:",
+    options: [
+      { text: "contingency", isCorrect: false },
+      { text: "disaster management", isCorrect: false },
+      { text: "vulnerability", isCorrect: false },
+      { text: "capacity", isCorrect: true },
+    ],
+  },
+  {
+    text: "The value derived from the knowledge of resource use by others in the current generation is called:",
+    options: [
+      { text: "altruistic value", isCorrect: true },
+      { text: "bequest value", isCorrect: false },
+      { text: "existence value", isCorrect: false },
+      { text: "option value", isCorrect: false },
+    ],
+  },
+  {
+    text: "IMU stands for:",
+    options: [
+      { text: "Imperial metering unit", isCorrect: false },
+      { text: "Inertial metering unit", isCorrect: false },
+      { text: "Imperial measurement unit", isCorrect: false },
+      { text: "Inertial measurement unit", isCorrect: true },
+    ],
+  },
+  {
+    text: "The frequency of flyovers is an indicator of:",
+    options: [
+      { text: "spatial resolution", isCorrect: false },
+      { text: "temporal resolution", isCorrect: true },
+      { text: "spectral resolution", isCorrect: false },
+      { text: "radiometric resolution", isCorrect: false },
+    ],
+  },
+  {
+    text: "'The situation of people, infrastructure, housing, production capacities, and other tangible human assets located in hazard-prone areas' is a definition for:",
+    options: [
+      { text: "hazard", isCorrect: false },
+      { text: "exposure", isCorrect: true },
+      { text: "vulnerability", isCorrect: false },
+      { text: "disaster", isCorrect: false },
+    ],
+  },
+  {
+    text: "'A process, phenomenon, or human activity that may cause loss of life, injury, property damage, or environmental degradation' is a definition for:",
+    options: [
+      { text: "hazard", isCorrect: true },
+      { text: "exposure", isCorrect: false },
+      { text: "vulnerability", isCorrect: false },
+      { text: "disaster", isCorrect: false },
+    ],
+  },
+  {
+    text: "Which of these uses imputed willingness to pay?",
+    options: [
+      { text: "market price method", isCorrect: false },
+      { text: "replacement cost method", isCorrect: false },
+      { text: "travel cost method", isCorrect: true },
+      { text: "contingent valuation method", isCorrect: false },
+    ],
+  },
+  {
+    text: "The time of flight for LiDAR is 0.00001 sec. Find the distance of the object from the instrument.",
+    options: [
+      { text: "500 m", isCorrect: true },
+      { text: "1000 m", isCorrect: false },
+      { text: "1500 m", isCorrect: false },
+      { text: "2000 m", isCorrect: false },
+    ],
+  },
+  {
+    text: "'A serious disruption of the functioning of a community due to hazardous events resulting in losses and impacts' is a definition for:",
+    options: [
+      { text: "hazard", isCorrect: false },
+      { text: "exposure", isCorrect: false },
+      { text: "vulnerability", isCorrect: false },
+      { text: "disaster", isCorrect: true },
     ],
   },
 ];
