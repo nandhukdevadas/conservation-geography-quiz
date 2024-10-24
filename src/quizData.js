@@ -491,8 +491,8 @@ export const quizData = [
     options: [
       { text: "h", isCorrect: false },
       { text: "k", isCorrect: false },
-      { text: "a", isCorrect: true },
-      { text: "b", isCorrect: false },
+      { text: "a", isCorrect: false },
+      { text: "b", isCorrect: true },
     ],
   },
   {
