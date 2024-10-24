@@ -84,8 +84,8 @@ export const quizData = [
     {
       text: "The movement of lions across the Gir landscape is an example of:",
       options: [
-        { text: "diffusion", isCorrect: false },
-        { text: "secular dispersal", isCorrect: true },
+        { text: "diffusion", isCorrect: true },
+        { text: "secular dispersal", isCorrect: false },
         { text: "jump dispersal", isCorrect: false },
         { text: "drifting", isCorrect: false },
       ],
@@ -214,10 +214,10 @@ export const quizData = [
   {
     text: "Which mineral forms 10% of the Earth’s crust and is green or black in color?",
     options: [
-      { text: "Amphiboles", isCorrect: true },
+      { text: "Amphiboles", isCorrect: false },
       { text: "Quartz", isCorrect: false },
       { text: "Feldspar", isCorrect: false },
-      { text: "Pyroxene", isCorrect: false },
+      { text: "Pyroxene", isCorrect: true },
     ],
   },
   {
@@ -498,9 +498,9 @@ export const quizData = [
   {
     text: "In Koeppen classification, which indicates hot summer temperature?",
     options: [
-      { text: "h", isCorrect: true },
+      { text: "h", isCorrect: false },
       { text: "k", isCorrect: false },
-      { text: "a", isCorrect: false },
+      { text: "a", isCorrect: true },
       { text: "b", isCorrect: false },
     ],
   },
@@ -555,8 +555,8 @@ export const quizData = [
     text: "The diversity among different geographies is called:",
     options: [
       { text: "Alpha (α) biodiversity", isCorrect: false },
-      { text: "Beta (β) biodiversity", isCorrect: true },
-      { text: "Gamma (γ) biodiversity", isCorrect: false },
+      { text: "Beta (β) biodiversity", isCorrect: false },
+      { text: "Gamma (γ) biodiversity", isCorrect: true },
       { text: "Delta (δ) biodiversity", isCorrect: false },
     ],
   },
@@ -583,8 +583,8 @@ export const quizData = [
     options: [
       { text: "Climatic climax", isCorrect: false },
       { text: "Edaphic climax", isCorrect: false },
-      { text: "Disclimax", isCorrect: true },
-      { text: "Catastrophic climax", isCorrect: false },
+      { text: "Disclimax", isCorrect: false },
+      { text: "Catastrophic climax", isCorrect: true },
     ],
   },
   {
@@ -615,7 +615,7 @@ export const quizData = [
     ],
   },
   {
-    text: "Which definition describes 'species'?",
+    text: "'groups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such groups' is a definition of",
     options: [
       { text: "Cells", isCorrect: false },
       { text: "Species", isCorrect: true },
